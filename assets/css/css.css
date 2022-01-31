@@ -1,0 +1,115 @@
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .banner-slider img {
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .banner-slider .swiper-button-next:after, .banner-slider .swiper-button-prev:after {
+    font-size: 30px;
+    display: none;
+  }
+
+  .banner-section .container {
+    width: 100%;
+  }
+  .banner-section .heading {
+    font-size: 30px;
+  }
+  .banner-section p {
+    font-size: 15px;
+    margin: 15px 0;
+  }
+  .banner-section .search-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .search_find {
+    width: 100%;
+    display: block;
+    background: none;
+  }
+  .search_find input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 14px;
+  }
+
+  .popular-hotels {
+    padding: 30px 0 55px;
+  }
+  .popular-hotels .slick-prev, .popular-hotels .slick-next {
+    left: 35%;
+  }
+  .popular-hotels .slick-next {
+    left: inherit;
+    right: 35%;
+  }
+}
+@media (max-width: 767px) {
+  .m_div {
+    padding: 30px 0;
+  }
+
+  .safari-tours {
+    display: block;
+  }
+
+  .emirates_content .text a {
+    font-size: 14px;
+  }
+  .emirates_content .heading {
+    font-size: 30px;
+  }
+  .emirates_content ul {
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+
+  .description_tabs ul {
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 4px;
+  }
+
+  .page-activity-details {
+    padding: 20px 0;
+  }
+  .page-activity-details .container {
+    display: block;
+  }
+  .page-activity-details .content_box {
+    width: 100%;
+  }
+
+  .pricing_box ul {
+    padding: 15px 0;
+    display: inherit;
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 4px;
+  }
+  .pricing_box ul li {
+    display: inline-block;
+    width: 42%;
+  }
+
+  .page-activity-details .text_info {
+    display: block;
+  }
+  .page-activity-details .text_info .left {
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  .page-activity-details .text_info .right {
+    width: 100%;
+  }
+}
